@@ -46,7 +46,7 @@
 
 .body {
     min-height: 100%;
-    background-image: url("icons/meio_ambiente.png");
+    background-image: url("../icons/meio_ambiente.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
