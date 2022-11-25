@@ -27,12 +27,12 @@ function Sobre() {
                     
 
                     <div className='div_aut1'>
-                        <img src='../icons/autora1.png' />
+                        <img src='./icons/autora1.png' />
                         <p className='prg3'>"Buscamos a sustentabilidade a longo prazo, porém sabemos que esse objetivo nunca será atingido. Dessa forma cabe a nós desenvolvermos ações que irão atuar como pequenos degraus em direção a um mundo sustentável. Dentre essas ações está a REDUÇÃO dos resíduos gerados".</p>
                     </div>
 
                     <div className='div_aut2'>
-                        <img src='../icons/autora2.png' />
+                        <img src='./icons/autora2.png' />
                         <p className='prg3'>“Evoluímos em vários setores, especialmente nos setores produtivos, e com isso aumentamos a nossa capacidade de gerar resíduos. O momento atual exige de nós ações mais pontuais. Precisamos sair da nossa área de conforto e não só destinarmos corretamente os resíduos produzidos, mas também REDUZIR a produção dos mesmos na medida do possível, trabalhando hoje para garantir o amanhã"</p>
                     </div>
 
@@ -40,12 +40,12 @@ function Sobre() {
             
                 <footer className='footer'>
             <div className='divpt12'>
-                    <a className='apt5' href='https://www.instagram.com/unisagrado_oficial/' target='_blank' title='Instagram'><img className='iconpt1' src='../icons/instagram.png' alt='Instagram' /></a>
-                    <a className='apt5' href='https://www.facebook.com/UNISAGRADOBauru/' target='_blank' title='Facebook'><img className='iconpt1' src='../icons/facebook.png' alt='Facebook' /></a>
-                    <a className='apt5' href='https://www.linkedin.com/school/unisagradobauru/' target='_blank' title='LinkedIn'><img className='iconpt1' src='../icons/linkedin.png' alt='LinkedIn' /></a>
-                    <a className='apt5' href='https://www.youtube.com/c/UNISAGRADO' target='_blank' title='Youtube'><img className='iconpt1' src='../icons/youtube.png' alt='Youtube' /></a>
-                    <a className='apt5' href='https://www.tiktok.com/@unisagrado' target='_blank' title='TikTok'><img className='iconpt1' src='../icons/tik-tok.png' alt='TikTok' /></a>
-                    <a className='apt5' href='https://wa.me/5514996060900?text=Ol%C3%A1+estou+navegando+no+site+de+voc%C3%AAs+e+gostaria+de+tirar+algumas+d%C3%BAvidas.' target='_blank' title='Whatsapp'><img className='iconpt1' src='../icons/whatsapp.png' alt='Whatsapp' /></a>
+                    <a className='apt5' href='https://www.instagram.com/unisagrado_oficial/' target='_blank' title='Instagram'><img className='iconpt1' src='./icons/instagram.png' alt='Instagram' /></a>
+                    <a className='apt5' href='https://www.facebook.com/UNISAGRADOBauru/' target='_blank' title='Facebook'><img className='iconpt1' src='./icons/facebook.png' alt='Facebook' /></a>
+                    <a className='apt5' href='https://www.linkedin.com/school/unisagradobauru/' target='_blank' title='LinkedIn'><img className='iconpt1' src='./icons/linkedin.png' alt='LinkedIn' /></a>
+                    <a className='apt5' href='https://www.youtube.com/c/UNISAGRADO' target='_blank' title='Youtube'><img className='iconpt1' src='./icons/youtube.png' alt='Youtube' /></a>
+                    <a className='apt5' href='https://www.tiktok.com/@unisagrado' target='_blank' title='TikTok'><img className='iconpt1' src='./icons/tik-tok.png' alt='TikTok' /></a>
+                    <a className='apt5' href='https://wa.me/5514996060900?text=Ol%C3%A1+estou+navegando+no+site+de+voc%C3%AAs+e+gostaria+de+tirar+algumas+d%C3%BAvidas.' target='_blank' title='Whatsapp'><img className='iconpt1' src='./icons/whatsapp.png' alt='Whatsapp' /></a>
                 </div>
                 <div className='container_alunos'>
                     <div className='divpt13'>
