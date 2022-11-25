@@ -1,0 +1,128 @@
+
+.h_titulo_faze{
+    color:#19471E;
+    margin-bottom: 5%;
+}
+
+.div_faze{
+    display: block;
+    margin: 5%;
+    justify-content: center;
+}
+.div_faze2{
+    display: flex;
+    margin: 5%;
+
+}
+.info_ul{
+    display: block;
+    list-style: none;
+}
+
+.li_faze{
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 800px){
+    .prg_info_faze{
+        font-size: 12px;
+    }
+    .info_ul{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .div_faze2{
+        display: flex;
+        justify-content: center;
+    }
+    .prg_info_faze{
+        font-size: 12px;
+    }
+    .info_ul{
+        font-size: 12px;
+    }
+
+}
+
+.divpt12{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.divpt13{
+    display: block;
+}
+.divpt14{
+    display: block;
+    margin-left: 5%;
+}
+.container_alunos{
+    display: flex;
+    margin-left: 20%;
+    color: #FFFF;
+}
+.iconpt1{
+    padding: 0px;
+    margin: 0px 0px 0px;
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    background-color: #19471E;
+    height: auto;
+    padding: 10px 10px;
+    font-size: 10px;
+
+}
+@media only screen and (max-width: 800px){
+
+    .divpt12{
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .divpt14{
+        margin-top: 10px;
+    }
+    .divpt13{
+        margin-top: 10px;
+    }
+    .container_alunos{
+        display: block;
+        margin-left: 20%;
+        color: #FFFF;
+    }
+}
+@media only screen and (max-width: 400px){
+    .iconpt1{
+        padding: 0px;
+        margin: 0px 0px 0px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .container_alunos{
+        display: flex;
+        color: #FFFF;
+        
+    }
+    .footer{
+        font-size: 7px;
+    }
+    .divpt14{
+        margin-top: 10px;
+    }
+    .divt13{
+        margin-top: 10px
+    }
+}
+@media only screen and (min-width: 768px){
+    .footer2{
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+}

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+.label1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 65px;
+    padding: 70px 0px 0px 25px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    transition: .30s;
+    z-index: 1;
+}
+
+.i1 {
+    font-size: 25px;
+    background-color: transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ul2 {
+    list-style:none;
+    padding: 0px;
+}
+
+.li2 {
+    margin-top: 15px;
+    transition: .30s;
+}
+
+.li2 .a2 {
+    text-decoration: none;
+    font-weight: 900;
+    color: #fff;
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 16px;
+    display: block;
+    text-transform: uppercase;
+    transition: .30s;
+
+}
+
+.li2:hover {
+    background-color: #28582d;
+    border-radius: 10px;
+    
+}
+
+.fas.fa-bars{
+    display: inherit;
+}
+
+.fas.fa-times{
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.input1 {
+    display: none;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    left: -250px;
+    margin: 0;
+    width: 250px;
+    overflow: hidden;
+    height:  70%;
+    background-color: #19471e;
+    padding: 0px;
+    overflow-y: auto;
+    transition: .30s;
+    border-radius: 0 20px 20px 0;
+}
+
+.p3 {
+    color: #fff;
+    text-align: center;
+    padding: 20px 25px;
+    border-bottom: 1px solid #ccc;
+    display: block;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+
+.input1:checked ~ .label1{
+    left: auto;
+    right: 0;
+    padding: 17px 25px 0px 0px ;
+}
+.input1:checked ~ .label1 .fas.fa-bars{
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+.input1:checked ~ .label1 .fas.fa-times{
+    opacity: 1;
+    visibility: visible;
+    width: 40px;
+    height: 40px;
+    display: inherit;
+}
+
+.input1:checked ~ .menu{
+    left: 0px;
+}
+
+@media only screen and (min-width: 250px){
+    .input1:checked ~ .label1{
+        left: 270px;
+        right: 0;
+    }
+    .input1:checked ~ .menu{
+        width: 250px;
+        max-width: auto;
+    }
+
+    
+}
+@media only screen and (min-width: 900px){
+    label{
+        display: none;
+    }
+    .label1{
+        display: none;
+    }
+    .menu,
+    input:checked ~ .menu{
+        left: 0;
+        position: relative;
+        width: 100%;
+        margin: 0;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0;    
+        z-index: 5;
+
+    }
+    ul{
+        display: flex;
+    }
+    p{
+        border: 0px
+    }
+    li{
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+    i{
+        visibility: hidden;
+        z-index: -2;
+    }
+
+}
+
+
+
+
+
+
