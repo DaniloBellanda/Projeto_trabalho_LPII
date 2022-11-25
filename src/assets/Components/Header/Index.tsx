@@ -16,19 +16,19 @@ function Header() {
 
                     <ul className='ul1'>
                         <li className='li2'>
-                            <a className='a2' href="/">Home</a>
+                            <Link className='a2' to="/">Home</Link>
                         </li>
                         <li className='li2'>
-                            <a className='a2' href="/Sobre">O Projeto</a>
+                            <Link className='a2' to="/Sobre">O Projeto</Link>
                         </li>
                         <li className='li2'>
-                                <a className='a2' href="/Fazemos">O QUE FAZEMOS</a>
+                                <Link className='a2' to="/Fazemos">O QUE FAZEMOS</Link>
                             </li>
                         <li className='li2'>
                             <a className='a2' href='https://www.google.com.br/maps/place/R.+Irm%C3%A3+Arminda,+50+-+Quadra+10+-+Jardim+Brasil,+Bauru+-+SP,+17011-970/@-22.3276311,-49.0551477,16.75z/data=!4m5!3m4!1s0x94bf6777c0cfe609:0x8f81aefa76d64c11!8m2!3d-22.3275029!4d-49.0529516' target='_blank'>Onde estamos</a>
                         </li>
                         <li className='li2'>
-                            <a className='a2' href="/Dicas">Dicas</a>
+                            <Link className='a2' to="/Dicas">Dicas</Link>
                         </li>
 
                     </ul>
@@ -46,19 +46,19 @@ function Header() {
 
                         <ul className='ul2'>
                             <li className='li2'>
-                                <a className='a2' href="/">Home</a>
+                                <Link className='a2' to="/">Home</Link>
                             </li>
                             <li className='li2'>
-                                <a className='a2' href="/Sobre">O Projeto</a>
+                                <Link className='a2' to="/Sobre">O Projeto</Link>
                             </li>
                             <li className='li2'>
-                                <a className='a2' href="/Fazemos">O QUE FAZEMOS</a>
+                                <Link className='a2' to="/Fazemos">O QUE FAZEMOS</Link>
                             </li>
                             <li className='li2'>
                                 <a className='a2' href='https://www.google.com.br/maps/place/R.+Irm%C3%A3+Arminda,+50+-+Quadra+10+-+Jardim+Brasil,+Bauru+-+SP,+17011-970/@-22.3276311,-49.0551477,16.75z/data=!4m5!3m4!1s0x94bf6777c0cfe609:0x8f81aefa76d64c11!8m2!3d-22.3275029!4d-49.0529516' target='_blank'>Onde estamos</a>
                             </li>
                             <li className='li2'>
-                                <a className='a2' href="/Dicas">Dicas</a>
+                                <Link className='a2' to="/Dicas">Dicas</Link>
                             </li>
 
                         </ul>
